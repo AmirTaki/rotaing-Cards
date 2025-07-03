@@ -33,4 +33,10 @@ body {
         left:0;
         background-color: red;
     }
+
+    span{
+        background-color: yellow;
+        width: 200px;
+        height: 350px;
+    }
 }

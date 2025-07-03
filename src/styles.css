@@ -24,18 +24,20 @@ body {
     width: 200px;
     height: 350px;
     position: relative;
-    background-color: blue;
-    
+    transform-style: preserve-3d ;
+    transform: perspective(1000px) ;
 
     div{
         position: absolute;
         top:0;
         left:0;
-        background-color: red;
+        transform-style: preserve-3d ;
+        transform:  rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+        transition: transform 1s;
     }
 
     span{
-        background-color: yellow;
+        background-color: #121212;
         width: 200px;
         height: 350px;
     }

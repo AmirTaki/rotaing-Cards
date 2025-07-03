@@ -19,3 +19,9 @@ body {
     display: grid;
     place-items: center;
 }
+
+.container {
+    width: 200px;
+    height: 350px;
+    position: relative;
+}

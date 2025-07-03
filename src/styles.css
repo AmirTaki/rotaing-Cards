@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    color:#000;
+    --color1:#fa1eb1;
+    --color2:#4706eb;
+    --color3:rgb(162, 244, 162);
+    --color4:#ff7f50;
+    font-size: 1.5rem;
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}

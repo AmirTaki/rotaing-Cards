@@ -24,4 +24,13 @@ body {
     width: 200px;
     height: 350px;
     position: relative;
+    background-color: blue;
+    
+
+    div{
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: red;
+    }
 }
